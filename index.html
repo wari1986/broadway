@@ -10,28 +10,28 @@
   <!-- Main Title Section-->
 
   <div class="main-title">
-    <h1>Broadway Design</h1>
+    <h1 id=title>Broadway Design</h1>
     <div #titlelinks">
-      <p><a href="#">Home</a></p>
-      <p><a href="#">Process</a></p>
-      <p><a href="#">Work</a></p>
-      <p><a href="#">Team</a></p>
-      <p><a href="#">Contact</a></p>
+      <p><a href="#title">Home</a></p>
+      <p><a href="#process">Process</a></p>
+      <p><a href="#portafolio">Work</a></p>
+      <p><a href="#team">Team</a></p>
+      <p><a href="#contact">Contact</a></p>
     </div>
   </div>
 
   <!-- Process Section -->
 
   <div class="process">
-    <h3>Our Process</h3>
+    <h3 id=process>Our Process</h3>
     <img src="resources/images/identify.svg" alt="identifyicon">
-    <h5>Identify</h5>
+    <h5 id=identify>Identify</h5>
     <p class="description">We focus on the most important details</p>
     <img src="resources/images/understand.svg" alt="understandicon">
-    <h5>Understand</h5>
+    <h5 id=understand>Understand</h5>
     <p class="description">We study our projects inside and out</p>
     <img src="resources/images/execute.svg" alt="executeicon">
-    <h5>Execute</h5>
+    <h5 id=execute>Execute</h5>
     <p class="description">We put everything have into work</p>
   </div>
 
@@ -40,11 +40,11 @@
   <div class="newyorksection">
     <h5>Design in New York</h5>
   </div>
-  <h5>Portafolio</h5>
+  <h5 id=portafolio>Portafolio</h5>
   <p class=description>Coming Soon</p>
-  <h5>Team</h5>
+  <h5 id=team>Team</h5>
   <p class="description">We're Hiring!</p>
-  <h5>Contact</h5>
+  <h5 id=contact>Contact</h5>
   <p class="description">Phone:(555)-555-5555</p>
   <p class="description">E-mail:test@example.com</p>
   <p class="description">Twitter:@test</p>
@@ -52,10 +52,7 @@
   <!-- Bottomend Section -->
 
   <div class="bottomend">
-    <p>© Broadway 2017 Home About Work Team Contact</p>
+    <p>© Broadway 2017 <a class=titlelinks href="#title">Home</a><a class=titlelinks href="#process">About</a><a class=titlelinks href="#portafolio">Work</a><a class=titlelinks href="#team">Team</a><a class=titlelinks href="#contact">Contact</a></p>
   </div>
-
-
-
   </body>
 </html>
