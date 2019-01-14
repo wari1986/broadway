@@ -9,15 +9,17 @@ body {
 #maintitle {
   color: white;
   background-image: url("../images/building.png");
+  background-repeat: no-repeat;
 }
 
-.h1 {
+.headertitle {
   font-size: 70px;
 }
 
 .titlelinks a{
   font-size: 18px;
   color: white;
+  background-color: inherit;
 }
 
 /* Process Style */
@@ -27,7 +29,6 @@ body {
 }
 
 .description {
-  font-weight: normal;
   font-size: 14px;
 }
 
@@ -41,10 +42,12 @@ h5 {
 
 .newyorksection {
   font-size: 23px;
+  color: white;
   background-image: url("../images/building.png")
+
 }
 
-.bottomend {
+.footer p,a{
   font-size: 11px;
   background-color: dimgray;
   color: white;
